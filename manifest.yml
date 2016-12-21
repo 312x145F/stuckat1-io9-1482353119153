@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: stuckat1-io9
+  host: stuckat1-io9
+  disk_quota: 1024M
+  services:
+  - stuckat1-io9-cloudantNoSQLDB
+  - stuckat1-io9-iotf-service
